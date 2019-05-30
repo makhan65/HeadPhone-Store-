@@ -1,0 +1,428 @@
+body
+{
+	background-color:white /*#B3DDF2;*/
+	font-size: 15px;
+	font-family: sans-serif, arial, helvetica, verdana;
+	color: black;
+	width: 975px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#topnavbar
+{	
+	margin-top:10px;
+	margin-bottom:68px;
+	text-align:center;
+	background-color:#ff3333;
+ 	margin-left:auto;
+	margin-right:auto;
+	width:1875px;	
+}
+
+#topnavbar ul
+{ 
+      margin:0px;
+      padding:0px;
+      list-style:none;
+
+	
+}
+#topnavbar ul li
+{  
+	
+	background-color:#ff3333;
+	width:245px;
+	border:1 px solid #ff3333;
+	height:55px;
+	line-height:50px;
+	text-align:center;
+	float:left;
+	color:white;
+	font-size:18px;
+
+}
+
+#topnavbar ul li a
+{	
+    
+    border-style: solid;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#topnavbar ul li :hover
+{
+    background-color: white;
+    color: red;
+}
+#topnavbar ul ul{
+	position: relative;
+	margin:0px;
+	padding:0px;
+	display:none;
+	
+}	
+#topnavbar ul li:hover > ul{
+	display:block;
+}
+
+#topnavbar ul ul li a
+{	
+    
+    border-style: solid;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#ProdContainer{
+	height: 700px;
+	width: 1150px;
+	background: white;
+	padding-top:0%;
+	margin-top:0%;
+	margin-left: 55px;
+	margin-right: 55px;
+}
+
+a{
+	text-decoration: none;
+}
+#logoContainer{
+	border: 1px solid black;
+	width: 0px;
+	height: 00px;
+	margin-left: 550px;
+}
+#circle3{
+	
+	width: 65px;
+	height: 65px;
+	line-height: 70px;
+	border: 1px solid black;
+	margin-top: 20px;
+	margin-left:20px;
+	border-radius: 75px;
+	font-family: verdana;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	background: #655665;;
+}
+#circle3:hover{
+	opacity: .7;	
+}
+#behindHeader{
+	width: 1150px;
+	height:125px;
+}
+#navHorizontal ul li {
+	display: inline-block;
+	width: 10%;
+	text-transform: uppercase;
+}
+#navHorizontal ul{
+	margin-top: 105px;
+}
+#navHorizontal ul li a{
+	text-decoration: none;
+	color: lightgrey;
+}
+#navHorizontal ul li a:hover{
+	color: purple;
+}
+
+#productContainer{
+	width: 1100px;
+	height: 490px;
+	margin: auto;
+	border: 1px solid transparent;
+	margin-top:-5%;
+}
+
+#product{
+	float: left;
+}
+h4
+{
+	padding-left:51%;
+	text-decoration:none;
+}
+#product1{
+	width: 540px;
+	height: 470px;
+}
+#pName{
+	float: left;
+	width: 520px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: verdana;
+	font-size: 24px;
+	color:black; 
+}
+#price{
+	float: left;
+	width: 520px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: verdana;
+	font-size: 24px;
+	color:black;
+}
+#jac{
+	float: left;
+	width: 520px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: verdana;
+	font-size: 16px;
+	color:red;
+}
+#quantity{
+	float: left;
+	width: 80px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: verdana;
+	font-size: 26px;
+	color: #655665;
+	padding-top: 10px;
+	text-align: center;
+}
+#minusCircle{
+	width: 15px;
+	height: 15px;
+	line-height: 13px;
+	border: 1px solid black;
+	color: white;
+	font-family: gill sans;
+	border-radius: 20px;
+	cursor: pointer;
+	float: left;
+	font-size: 14px;
+	text-align: center;
+	background: gray;
+}
+#cartButton{
+	text-decoration: none;
+	color: white;
+}
+#plusCircle{
+	width: 15px;
+	height: 15px;
+	line-height: 13px;
+	border: 1px solid black;
+	color: white;
+	font-family: gill sans;
+	border-radius: 20px;
+	cursor: pointer;
+	float: left;
+	font-size: 14px;
+	text-align: center;
+	background: gray;
+}
+#prodQuanity{
+	width: 40px;
+	margin-top: 0px;
+	margin-left: 00px;
+	float: left;
+	text-align: center;
+	
+}
+#quant{
+	border: none;
+	width: 35px;
+	text-align: center;
+	font-size: 14px;
+	margin-left: 8px;
+}
+#addToCart{
+	height: 35px;
+	float: left;
+	width: 280px;
+	background:orange;
+	border-radius: 3px;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: center;
+	padding-top: 10px;
+	background:#FF4500;
+	font-family: verdana;
+	font-size: 14px;
+}
+#addToCart a{
+	text-decoration: none;
+	color: white;
+}
+#addToCart:hover{
+	opacity: .7;
+	background-color:#FF4500;
+}
+#category{
+	width: 500px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	color:#521B10;
+	font-family: verdana;
+	font-size: 14px;
+	line-height: 25px;
+}
+#share{
+	
+	font-family: verdana;
+	font-size: 14px;
+	color: purple;
+	width: 90px;
+	float: left;
+	font-weight: 600;
+}
+#descriptionBox{
+	height: 155px;
+	width: 460px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	background:#FF7F00;
+	border: 1px solid transparent;
+	text-align: center;
+	font-family: verdana;
+	font-size: 14px;
+
+}
+#descriptionBox a{
+	text-decoration: none;
+	color: black;
+}
+#descriptionBox a:hover{
+	color: purple;
+	opacity: .2;
+}
+#description{
+	height: 30px;
+	width: 460px;
+	background: #F3F3F3;
+	
+	padding-top: 15px;
+}
+#additionalInfo{
+	height: 30px;
+	width: 460px;
+	margin-top: 10px;
+	background: #F3F3F3;
+	padding-top: 15px;
+}
+#reviews{
+	height: 30px;
+	width: 460px;
+	margin-top: 10px;
+	background: #F3F3F3;
+	padding-top: 15px;
+}
+
+
+#navFooter{
+	float: left;
+	width: 24%;
+	display: inline-block;	
+	margin: auto;
+	margin-left: 20px;
+	padding-right: 0px;
+
+}
+#navFooter ul li {
+	display: inline-block;
+	font-size: 16px;
+}
+
+#navFooter ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: lightgrey;
+}
+#navFooter ul li a:hover{
+	color: purple;
+}
+#navFooter{
+	list-style: none;
+}
+footer{	
+	height: 30px;
+	width: 1150px;
+	/*text-align: left;*/
+	margin-left: 20px;
+	
+}
+
+#circle2{
+	width: 25px;
+	height: 25px;
+	line-height: 11px;
+	margin-left: 12px;
+	border-radius: 35px;
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	background: #DAD9DA;
+}
+#circle2:hover{
+	background:#655665;
+}
+
+
+#footerImages{
+	height: 40px;
+	float: left;
+	width: 20%;
+	margin-top: 10px;
+	margin-left: 230px;	
+}
+#facebook{
+	height: 37px;
+	margin-top: -5px;
+	margin-left: -5px;
+	text-align: center;
+}
+#facebook2{
+	height: 34px;
+	margin-top: -5px;
+	float: left;
+}
+#twitter{
+	margin-top: 8px;
+	margin-left: 4px;
+	height: 12px;
+}
+#twitter2{
+	height: 12px;
+	margin-top: 6px;	
+}
+
+
+#linkedin{
+	height: 22px;
+	margin-top: 2px;
+}
+#pinterest{
+	height: 17px;
+	margin-left: 1px;
+	margin-top: 5px;
+}
+#tumblr{
+	height: 17px;
+	margin-left: 1px;
+	margin-top: 5px;
+}
+#footerRight{
+	float: right;
+	width: 17%;
+	margin-right: -10px;
+	font-size: 16px;
+	margin-top: 20px;
+	color: lightgrey;
+}

@@ -1,0 +1,422 @@
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+  background-color:white;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  right:90%
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:white; /*#555;*/
+  color: blue;
+  font-size: 20px;
+  padding: 18px 50px;
+  border: 2px solid #4CAF50;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: yellow;
+}
+
+.top-right {
+    position: absolute;
+    top: 8%;
+	left:77%;
+    right: 16%;
+	padding:48px 50px;
+	font-size:25px;
+	font-family:verdana;
+	color:brown;
+}
+
+h2{
+	font-size:25px;
+	font-family:verdana;
+	color:brown;
+	
+}
+
+#topnavbar
+{	
+	margin-top:10px;
+	margin-bottom:68px;
+	text-align:center;
+	background-color:#ff3333;
+ 	margin-left:auto;
+	margin-right:auto;
+	width:1875px;	
+}
+
+#topnavbar ul
+{ 
+      margin:0px;
+      padding:0px;
+      list-style:none;
+
+	
+}
+#topnavbar ul li
+{  
+	
+	background-color:#ff3333;
+	width:245px;
+	border:1 px solid #ff3333;
+	height:55px;
+	line-height:50px;
+	text-align:center;
+	float:left;
+	color:white;
+	font-size:18px;
+
+}
+
+#topnavbar ul li a
+{	
+    
+    border-style: solid;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#topnavbar ul li :hover
+{
+    background-color: white;
+    color: red;
+}
+#topnavbar ul ul{
+	position: relative;
+	margin:0px;
+	padding:0px;
+	display:none;
+	
+}	
+#topnavbar ul li:hover > ul{
+	display:block;
+}
+
+#topnavbar ul ul li a
+{	
+    
+    border-style: solid;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+#hr1{
+	float: left; 
+	width: 410px;
+	margin-left: 25px;
+}
+#hr2{
+	float: right; 
+	width: 390px;
+	margin-left: 12px;
+}
+#newArrival{
+	height: 20px; 
+	width: 450px;
+	margin-left: 23px;
+	font-family: georgia;
+	font-weight: 600;
+	color:#70607B;
+	font-size: 18px;
+	text-transform: uppercase;
+
+	float: left;
+}
+
+.sale{
+					width:100%;
+					text-align: center;
+				}
+
+				.col{
+					float: left;
+					height:450px;
+					border: 2px solid red;
+					width: 32%;
+					text-align: center;
+					margin: 10px;
+				}
+
+				.col2{
+					float: left;
+					height:450px;
+					border: 2px solid red;
+					width: 32%;
+					text-align: center;
+					margin: 10px;
+					margin-left: 0px;
+				}
+
+				.col3{
+					float: left;
+					height:450px;
+					border: 2px solid red;
+					width: 32%;
+					text-align: center;
+					margin: 10px;
+					margin-left: 0px;
+				}
+
+				.col4{
+					float: left;
+					height:450px;
+					border: 2px solid red;
+					width: 32%;
+					text-align: center;
+					margin: 10px;
+				}
+
+				.col5{
+					float: left;
+					height:450px;
+					border: 2px solid red;
+					width: 32%;
+					text-align: center;
+					margin: 10px;
+					margin-left: 0px;
+				}
+
+				.col6{
+					float: left;
+					height:450px;
+					border: 2px double red;
+					width: 32%;
+					text-align: center;
+					margin: 10px;
+					margin-left: 0px;
+				}
+
+				.price{
+					border: 2px solid brown;
+					margin: 10px;
+					width: 300px;
+					text-align:center;
+					background: white;
+					color: blue;
+					font-family:verdana;
+				}
+				
+				.pp
+				{
+					color: red;
+					
+				}
+				footer{
+					width: 100%;
+				}
+
+				.left{
+					float: left;
+					padding: 20px;
+					width: 45%;
+				}
+
+				.right{
+					float: right;
+					padding: 20px;
+					width: 40%;
+					text-align: right;
+				}
+
+
+				@media screen and (max-width: 1300px) {
+					.sale{
+						width:100%;
+						text-align: center;
+					}
+
+					.col{
+						float: left;
+						height:450px;
+						border: 2px solid black;
+						width: 45%;
+						text-align: center;
+						margin: 10px;
+					}
+
+					.col2{
+						float: left;
+						height:450px;
+						border: 2px solid red;
+						width: 45%;
+						text-align: center;
+						margin: 10px;
+						margin-left: 0px;
+					}
+
+					.col3{
+						float: left;
+						height:450px;
+						border: 2px solid red;
+						width: 45%;
+						text-align: center;
+						margin: 10px;
+					}
+
+					.col4{
+						float: left;
+						height:450px;
+						border: 2px solid red;
+						width: 45%;
+						text-align: center;
+						margin: 10px;
+						margin-left: 0px;
+					}
+
+					.col5{
+						float: left;
+						height:450px;
+						border: 2px solid red;
+						width: 45%;
+						text-align: center;
+						margin: 10px;
+					}
+
+					.col6{
+						float: left;
+						height:450px;
+						border: 2px solid red;
+						width: 45%;
+						text-align: center;
+						margin: 10px;
+						margin-left: 0px;
+					}
+
+					.price{
+					border: 2px solid black;
+					margin: 10px;
+					width: 300px;
+					text-align:center;
+					background: white;
+					color: blue;
+					font-family:verdana;
+				}
+				
+				.pp
+				{
+					color: red;
+					
+				}
+
+					footer{
+						width: 100%;
+					}
+				}
+	@media screen and (max-width: 715px) {
+		.sale{
+			width:100%;
+			text-align: center;
+		}
+
+		.col{
+			float: left;
+			height:250px;
+			border: 2px solid red;
+			width: 46%;
+			text-align: center;
+			margin: 10px;
+		}
+
+		.col2{
+			float: left;
+			height:450px;
+			border: 2px solid red;
+			width: 96%;
+			text-align: center;
+			margin: 10px;
+		}
+
+		.col3{
+			float: left;
+			height:450px;
+			border: 2px solid red;
+			width: 96%;
+			text-align: center;
+			margin: 10px;
+		}
+
+		.col4{
+			float: left;
+			height:450px;
+			border: 2px solid red;
+			width: 96%;
+			text-align: center;
+			margin: 10px;
+		}
+
+		.col5{
+			float: left;
+			height:450px;
+			border: 2px solid red;
+			width: 96%;
+			text-align: center;
+			margin: 10px;
+		}
+
+		.col6{
+			float: left;
+			height:450px;
+			border: 2px solid red;
+			width: 96%;
+			text-align: center;
+			margin: 10px;
+		}
+
+		.price{
+					border: 2px solid black;
+					margin: 10px;
+					width: 300px;
+					text-align:center;
+					background: white;
+					color: blue;
+					font-family:verdana;
+				}
+				
+				.pp
+				{
+					color: red;
+					
+				}
+
+		footer{
+			width: 100%;
+		}
+		.left{
+			float: left;
+			padding: 20px;
+			width: 50%;
+		}
+
+		.right{
+			float: right;
+			padding: 20px;
+			width: 30%;
+			text-align: right;
+		}
+	}

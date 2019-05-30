@@ -1,0 +1,85 @@
+
+/* Store Project styling */
+/*Stereo Dynamic Headphone (Project 1)*/
+
+
+body
+{
+	background-color:black; /*#B3DDF2;*/
+	font-size: 15px;
+	font-family: sans-serif, arial, helvetica, verdana;
+	color: black;
+	width: 975px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#topnavbar
+{	
+	margin-top:10px;
+	margin-bottom:68px;
+	text-align:center;
+	background-color:#ff3333;
+ 	margin-left:auto;
+	margin-right:auto;
+	width:1875px;	
+}
+
+#topnavbar ul
+{ 
+      margin:0px;
+      padding:0px;
+      list-style:none;
+
+	
+}
+#topnavbar ul li
+{  
+	
+	background-color:#ff3333;
+	width:245px;
+	border:1 px solid #ff3333;
+	height:55px;
+	line-height:50px;
+	text-align:center;
+	float:left;
+	color:white;
+	font-size:18px;
+
+}
+
+#topnavbar ul li a
+{	
+    
+    border-style: solid;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#topnavbar ul li :hover
+{
+    background-color: white;
+    color: red;
+}
+#topnavbar ul ul{
+	position: relative;
+	margin:0px;
+	padding:0px;
+	display:none;
+	
+}	
+#topnavbar ul li:hover > ul{
+	display:block;
+}
+
+#topnavbar ul ul li a
+{	
+    
+    border-style: solid;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}

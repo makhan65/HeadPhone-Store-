@@ -1,0 +1,109 @@
+<html>
+
+	<head>
+	
+		<title>CART</title>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+			<link rel="SHORTCUT ICON" href="favicon.ico"/>
+			<link href="cartc.css" rel="stylesheet" type="text/css" media="screen"/>
+	
+
+
+	</head>
+	<body>
+		
+			
+			<div id="row1">
+				<div id="Box1"></div>
+				<div id="Box2">PRODUCT</div>
+				<div id="Box3">PRICE</div>
+				<div id="Box4">QUANTITY</div>
+				<div id="Box5">TOTAL</div>
+			</div>
+			<div id="row10">
+				<div id="Box6">
+					<div id="X1" >&#10005;</div>
+					
+				</div>	
+					<img id="cartImage1" src ="10.jpeg"/>
+				<div id="Box7">Stereo Heaphone (Red)</div>
+				<div id="Box8">$599.99</div>
+				<div id="Box9">
+					<div id="circle1"><a href="#" onclick ="decr()"> - </a></div>
+					<div id="cartQuanity"> <input type="number" id ="quant" name = "quant" placeholder="0" min="0"></div>
+					<div id="circle1"><a href="#" onclick ="incr()"> + </a></div>
+				</div>
+				<div id="Box10">$599.99</div>
+			</div>
+			<div id="row11">
+				<div id="Box6">
+					<div id="X2">&#10005;</div>
+					
+				</div>	
+					<img id="cartImage1" src ="11.jpg"/>
+				<div id="Box7">Stereo HeadPhone (Black)</div>
+				<div id="Box8">$549.99</div>
+				<div id="Box9">
+					<div id="circle1"><a href="#" onclick ="decr()"> - </a></div>
+					<div id="cartQuanity"> <input type="number" id ="quant" name = "quant" placeholder="0" min="0"></div>
+					<div id="circle1"><a href="#" onclick ="incr()"> + </a></div>
+				</div>
+				<div id="Box10">$549.99</div>
+			</div>
+			
+			
+
+			<div id="row3">
+				<div id="couponCode">
+					<input id="couponCode" name="couponCode" type="text" placeholder ="Enter coupon code"/>
+				</div>
+				<a href="#" class="buttons"><div id="applyCoupon">APPLY COUPON</div></a>
+				<a href="#" class="buttons"><div id="updateCart">UPDATE CART</div>
+				<a href="Shipping&Payment.html" class="buttons"><div id="proceedToCheck">PROCEED TO PAYMENT </div></a>		
+			</div>
+			<div id="cartTotalContainer">
+				<div id="calcShipping">
+					
+				</div>
+				<div id="cartTotals">
+					<div id="crtTotals">
+						CART TOTALS
+
+					</div>
+					<div id="feeBox1">
+						Subtotal:<br>
+						Shipping:
+						Total:
+					</div>
+					<div id="feeBox2">
+						$1149.00<br>
+						Free<br>
+						
+						$1250.27
+					</div>
+				</div>				
+			</div>	
+		</div>
+		<footer>
+			
+			<div id ="footerImages"> 
+				<div id="circle2">
+					<a href="#"><img id="facebook" src="facebook3.png"/></a>
+				</div>
+				<div id="circle2">
+					<a href="#"><img id="twitter" src="twitter3.png"/></a>
+				</div>
+				<div id="circle2">
+					<a href="#"><img id="linkedin" src="linkedin3.png"/></a>
+				</div>
+				<div id="circle2">
+					<a href="#"><img id="pinterest" src="pinterest3.png"/></a>
+				</div>
+				<div id="circle2">
+					<a href="#"><img id="tumblr" src="tumblr2.png"/></a>
+				</div>
+			</div>
+			<div id="footerRight">&copy;Copyright HeadPhone <script> document.write(new Date().getFullYear())</script></div>
+		</footer>
+		<script type="text/javascript" src="cartj.js"></script>
+		</body>
